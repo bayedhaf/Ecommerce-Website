@@ -97,7 +97,7 @@ return (
 
    
     {isOpen && (
-      <div className="md:hidden bg-slate-50 w-[100%] float-right">
+      <div className="md:hidden bg-slate-50 w-[25%] float-right">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
         <Link to="#" className="block text-gray-800 hover:text-gray-600 text-sm font-medium">  Home</Link>
        
