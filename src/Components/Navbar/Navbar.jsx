@@ -97,7 +97,7 @@ return (
 
    
     {isOpen && (
-      <div className="md:hidden bg-slate-50 w-[25%] float-right">
+      <div className="md:hidden  bg-slate-50 w-[75%] float-right">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
         <Link to="#" className="block text-gray-800 hover:text-gray-600 text-sm font-medium">  Home</Link>
        
@@ -107,7 +107,7 @@ return (
          
           <Link to="/ Contact"    className="block text-gray-800 hover:text-gray-600 text-sm font-medium">Contact</Link>
         
-          <div className="flex space-x-4 mt-4">
+          <div className="hidden space-x-4 mt-4">
             <Link to="" className="text-gray-800 hover:text-gray-600">  <IoPersonAddOutline className="h-5 w-5" /></Link>
          
             <Link to="#" className="text-gray-800 hover:text-gray-600"> <FaRegHeart  className="h-5 w-5" /></Link>

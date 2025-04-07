@@ -1,10 +1,8 @@
-
-
 const Post = () => {
     return (
-        <div>
-            Post page
-        </div>
+       <div className="">
+        
+       </div>
     );
 };
 
