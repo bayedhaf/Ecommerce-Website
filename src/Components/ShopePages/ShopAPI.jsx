@@ -12,7 +12,7 @@ const ShopAPI = () => {
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await fetch('https://fakestoreapi.in/api/products?limit=4'); 
+          const response = await fetch('https://fakestoreapi.com/products?limit=12'); 
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
