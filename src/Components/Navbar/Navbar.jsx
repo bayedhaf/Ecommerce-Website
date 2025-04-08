@@ -16,7 +16,7 @@ const toggleMenu = () => {
 };
 
 return (
-  <nav className="bg-white shadow-md">
+  <nav className="bg-white shadow-md fixed top-0 w-full">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between h-16">
       
@@ -65,7 +65,7 @@ return (
           >
             Home
             </Link>
-          <Link to="/Shope" 
+          <Link to="/" 
             className="text-gray-800 hover:text-gray-600 text-sm font-medium"
            >
               Shop
@@ -81,10 +81,10 @@ return (
         </div>
 
         <div className="hidden md:flex md:items-center md:space-x-6">
-            <Link to="#" className="text-gray-800 hover:text-gray-600">
+            <Link to="/Contect" className="text-gray-800 hover:text-gray-600">
             <IoPersonAddOutline className="h-5 w-5" /></Link>
           
-          <Link to="#" className="text-gray-800 hover:text-gray-600">
+          <Link to="/Home" className="text-gray-800 hover:text-gray-600">
            <FaRegHeart className="h-5 w-5" /></Link>
          
           <Link to="#"className="text-gray-800 hover:text-gray-600">  <IoSearchSharp className="h-5 w-5" /></Link>
@@ -99,9 +99,9 @@ return (
     {isOpen && (
       <div className="md:hidden  bg-slate-50 w-[75%] float-right">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-        <Link to="#" className="block text-gray-800 hover:text-gray-600 text-sm font-medium">  Home</Link>
+        <Link to="/Home" className="block text-gray-800 hover:text-gray-600 text-sm font-medium">  Home</Link>
        
-          <Link to="#" className="block text-gray-800 hover:text-gray-600 text-sm font-medium"> Shop</Link>
+          <Link to="/About" className="block text-gray-800 hover:text-gray-600 text-sm font-medium"> Shop</Link>
          
           <Link to="/About"   className="block text-gray-800 hover:text-gray-600 text-sm font-medium">  About</Link>
          
