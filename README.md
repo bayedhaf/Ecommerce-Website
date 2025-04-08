@@ -30,7 +30,7 @@ Database: [ MongoDB]
 
 Authentication: [ JWT,]
 
-Payment Gateway: [Stripe, PayPal]
+Payment Gateway: [Stripe, PayPal,CBE]
 
 Deployment: [ Heroku]
 
@@ -41,3 +41,5 @@ Node.js installed
 MongoDB or your preferred database setup
 
 API keys for payment gateway 
+## intestalletion
+
